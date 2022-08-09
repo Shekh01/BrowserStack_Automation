@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 856.401 s <<< FAILURE! - in TestSuite
+collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection.Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection  Time elapsed: 142.276 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-C8IENHF', ip: '10.60.18.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3abc3b2acab56fe75abf870b59aed99e2dcbb822, clickElement {id=d515a662-0f9e-4942-8cc4-6a40c8648985}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.35 (f60a827ddb87f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 3abc3b2acab56fe75abf870b59a...}
+Element: [[RemoteWebDriver: chrome on WINDOWS (3abc3b2acab56fe75abf870b59aed99e2dcbb822)] -> xpath: //div[@id='container']//div[@class='owl-nav']//button[2]]
+Session ID: 3abc3b2acab56fe75abf870b59aed99e2dcbb822
+	at collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection.Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection(Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection.java:327)
+
+collectionSectionTestCases.Click_Collection_Link.click_on_collection_link  Time elapsed: 6.944 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='SHOP THE COLLECTION']"}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-C8IENHF', ip: '10.60.18.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ec78cd8f9a8fbb88f1d7121266cb1037dba81fef, findElement {using=xpath, value=//a[normalize-space()='SHOP THE COLLECTION']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.35 (f60a827ddb87f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1612}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ec78cd8f9a8fbb88f1d7121266c...}
+Session ID: ec78cd8f9a8fbb88f1d7121266cb1037dba81fef
+	at collectionSectionTestCases.Click_Collection_Link.click_on_collection_link(Click_Collection_Link.java:15)
+
+collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection.Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection  Time elapsed: 132.068 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-C8IENHF', ip: '10.60.18.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c2e294f760773fefc94a6465095a251539a214b, clickElement {id=074b2a48-9258-4f11-829e-c5395aae5d6e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.35 (f60a827ddb87f..., userDataDir: /var/folders/3y/zz_w6_s56sl...}, goog:chromeOptions: {debuggerAddress: localhost:56632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 8c2e294f760773fefc94a646509...}
+Element: [[RemoteWebDriver: chrome on MAC (8c2e294f760773fefc94a6465095a251539a214b)] -> xpath: //div[@id='container']//div[@class='owl-nav']//button[2]]
+Session ID: 8c2e294f760773fefc94a6465095a251539a214b
+	at collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection.Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection(Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection.java:327)
+

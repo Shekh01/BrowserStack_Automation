@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\All Project\BrowserStackTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 3 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection" class="method navigator-link" hash-for-method="Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection">Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection" class="method navigator-link" hash-for-method="Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection">Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_Collection_Link" class="method navigator-link" hash-for-method="click_on_collection_link">click_on_collection_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Absract_collection_and_check_of_all_shapes_of_Abstract_collection" class="method navigator-link" hash-for-method="Click_on_Absract_link_and_check_of_all_shapes_of_Abstract_collection">Click_on_Absract_link_and_check_of_all_shapes_of_Abstract_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Animal_Prints_collection_and_check_of_all_shapes_of_Animal_Prints_collection" class="method navigator-link" hash-for-method="Click_on_Animal_Prints_link_and_check_of_all_shapes_of_Animal_Prints_collection">Click_on_Animal_Prints_link_and_check_of_all_shapes_of_Animal_Prints_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Batik_play_collection_and_check_of_all_shapes_of_Batik_collection" class="method navigator-link" hash-for-method="Click_on_Batik_play_link_and_check_of_all_shapes_of_Batik_collection">Click_on_Batik_play_link_and_check_of_all_shapes_of_Batik_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Brush_Stroke_collection_and_check_of_all_shapes_of_Brush_Stroke_collection" class="method navigator-link" hash-for-method="Click_on_Brush_Stroke_link_and_check_of_all_shapes_of_Brush_Stroke_collection">Click_on_Brush_Stroke_link_and_check_of_all_shapes_of_Brush_Stroke_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Cerulean_collection_and_check_of_all_shapes_of_Cerulean_collection" class="method navigator-link" hash-for-method="Click_on_Cerulean_link_and_check_of_all_shapes_of_Cerulean_collection">Click_on_Cerulean_link_and_check_of_all_shapes_of_Cerulean_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Flatweaves_collection_and_check_of_all_shapes_of_Flatweaves_collection" class="method navigator-link" hash-for-method="Click_on_Flatweaves_link_and_check_of_all_shapes_of_Flatweaves_collection">Click_on_Flatweaves_link_and_check_of_all_shapes_of_Flatweaves_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Floral_collection_and_check_of_all_shapes_of_Floral_collection" class="method navigator-link" hash-for-method="Click_on_Floral_link_and_check_of_all_shapes_of_Floral_collection">Click_on_Floral_link_and_check_of_all_shapes_of_Floral_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Geometric_collection_and_check_of_all_shapes_of_Geometric_collection" class="method navigator-link" hash-for-method="Click_on_Geometric_link_and_check_of_all_shapes_of_Geometric_collection">Click_on_Geometric_link_and_check_of_all_shapes_of_Geometric_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Gradation_collection_and_check_of_all_shapes_of_Gradation_collection" class="method navigator-link" hash-for-method="Click_on_Gradation_link_and_check_of_all_shapes_of_Gradation_collection">Click_on_Gradation_link_and_check_of_all_shapes_of_Gradation_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Kids_collection_and_check_of_all_shapes_of_Kids_collection" class="method navigator-link" hash-for-method="Click_on_Kids_link_and_check_of_all_shapes_of_Kids_collection">Click_on_Kids_link_and_check_of_all_shapes_of_Kids_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Minimalist_collection_and_check_of_all_shapes_of_Minimalist_collection" class="method navigator-link" hash-for-method="Click_on_Minimalist_link_and_check_of_all_shapes_of_Minimalist_collection">Click_on_Minimalist_link_and_check_of_all_shapes_of_Minimalist_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Modern_Art_collection_and_check_of_all_shapes_of_Modern_Art_collection" class="method navigator-link" hash-for-method="Click_on_Modern_Art_link_and_check_of_all_shapes_of_Modern_Art_collection">Click_on_Modern_Art_link_and_check_of_all_shapes_of_Modern_Art_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Modern_Geometric_collection_and_check_of_all_shapes_of_Modern_Geometric_collection" class="method navigator-link" hash-for-method="Click_on_Modern_Geometric_link_and_check_of_all_shapes_of_Modern_Geometric_collection">Click_on_Modern_Geometric_link_and_check_of_all_shapes_of_Modern_Geometric_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Monochrome_collection_and_check_of_all_shapes_of_Monochrome_collection" class="method navigator-link" hash-for-method="Click_on_Monochrome_link_and_check_of_all_shapes_of_Monochrome_collection">Click_on_Monochrome_link_and_check_of_all_shapes_of_Monochrome_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Origami_collection_and_check_of_all_shapes_of_Origami_collection" class="method navigator-link" hash-for-method="Click_on_Origami_link_and_check_of_all_shapes_of_Origami_collection">Click_on_Origami_link_and_check_of_all_shapes_of_Origami_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Outdoor_collection_and_check_of_all_shapes_of_Outdoor_collection" class="method navigator-link" hash-for-method="Click_on_Outdoor_link_and_check_of_all_shapes_of_Outdoor_collection">Click_on_Outdoor_link_and_check_of_all_shapes_of_Outdoor_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Solids_Color_collection_and_check_of_all_shapes_of_Solids_Color_collection" class="method navigator-link" hash-for-method="Click_on_Solids_Color_link_and_check_of_all_shapes_of_Solids_Color_collection">Click_on_Solids_Color_link_and_check_of_all_shapes_of_Solids_Color_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_SurfaceArt_play_collection_and_check_of_all_shapes_of_SurfaceArt_collection" class="method navigator-link" hash-for-method="Click_on_SurfaceArt_play_link_and_check_of_all_shapes_of_SurfaceArt_collection">Click_on_SurfaceArt_play_link_and_check_of_all_shapes_of_SurfaceArt_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Click_on_Vintage_collection_and_check_of_all_shapes_of_Vintage_collection" class="method navigator-link" hash-for-method="Click_on_Vintage_link_and_check_of_all_shapes_of_Vintage_collection">Click_on_Vintage_link_and_check_of_all_shapes_of_Vintage_collection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="collectionSectionTestCases.Mouse_over_on_collection_link" class="method navigator-link" hash-for-method="Test_mouse_over_on_collection_link_and_check_all_collection_is_showing_or_not">Test_mouse_over_on_collection_link_and_check_all_collection_is_showing_or_not</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection">
+                  </a> <!-- Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection -->
+                  <span class="method-name">Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=99.0.4844.51)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;DESKTOP-C8IENHF&apos;, ip: &apos;10.60.18.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c2e294f760773fefc94a6465095a251539a214b, clickElement {id=074b2a48-9258-4f11-829e-c5395aae5d6e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.35 (f60a827ddb87f..., userDataDir: /var/folders/3y/zz_w6_s56sl...}, goog:chromeOptions: {debuggerAddress: localhost:56632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 8c2e294f760773fefc94a646509...}
+Element: [[RemoteWebDriver: chrome on MAC (8c2e294f760773fefc94a6465095a251539a214b)] -&gt; xpath: //div[@id=&apos;container&apos;]//div[@class=&apos;owl-nav&apos;]//button[2]]
+Session ID: 8c2e294f760773fefc94a6465095a251539a214b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection.Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection(Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection.java:327)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection">
+                  </a> <!-- Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection -->
+                  <span class="method-name">Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=99.0.4844.51)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;DESKTOP-C8IENHF&apos;, ip: &apos;10.60.18.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3abc3b2acab56fe75abf870b59aed99e2dcbb822, clickElement {id=d515a662-0f9e-4942-8cc4-6a40c8648985}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.35 (f60a827ddb87f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 3abc3b2acab56fe75abf870b59a...}
+Element: [[RemoteWebDriver: chrome on WINDOWS (3abc3b2acab56fe75abf870b59aed99e2dcbb822)] -&gt; xpath: //div[@id=&apos;container&apos;]//div[@class=&apos;owl-nav&apos;]//button[2]]
+Session ID: 3abc3b2acab56fe75abf870b59aed99e2dcbb822
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection.Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection(Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection.java:327)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_Collection_Link</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_collection_link">
+                  </a> <!-- click_on_collection_link -->
+                  <span class="method-name">click_on_collection_link</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;SHOP THE COLLECTION&apos;]&quot;}
+  (Session info: chrome=99.0.4844.51)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;DESKTOP-C8IENHF&apos;, ip: &apos;10.60.18.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ec78cd8f9a8fbb88f1d7121266cb1037dba81fef, findElement {using=xpath, value=//a[normalize-space()=&apos;SHOP THE COLLECTION&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.35 (f60a827ddb87f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1612}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ec78cd8f9a8fbb88f1d7121266c...}
+Session ID: ec78cd8f9a8fbb88f1d7121266cb1037dba81fef
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
+	at collectionSectionTestCases.Click_Collection_Link.click_on_collection_link(Click_Collection_Link.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Origami_collection_and_check_of_all_shapes_of_Origami_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Origami_link_and_check_of_all_shapes_of_Origami_collection">
+                  </a> <!-- Click_on_Origami_link_and_check_of_all_shapes_of_Origami_collection -->
+                  <span class="method-name">Click_on_Origami_link_and_check_of_all_shapes_of_Origami_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Gradation_collection_and_check_of_all_shapes_of_Gradation_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Gradation_link_and_check_of_all_shapes_of_Gradation_collection">
+                  </a> <!-- Click_on_Gradation_link_and_check_of_all_shapes_of_Gradation_collection -->
+                  <span class="method-name">Click_on_Gradation_link_and_check_of_all_shapes_of_Gradation_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Brush_Stroke_collection_and_check_of_all_shapes_of_Brush_Stroke_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Brush_Stroke_link_and_check_of_all_shapes_of_Brush_Stroke_collection">
+                  </a> <!-- Click_on_Brush_Stroke_link_and_check_of_all_shapes_of_Brush_Stroke_collection -->
+                  <span class="method-name">Click_on_Brush_Stroke_link_and_check_of_all_shapes_of_Brush_Stroke_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Modern_Art_collection_and_check_of_all_shapes_of_Modern_Art_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Modern_Art_link_and_check_of_all_shapes_of_Modern_Art_collection">
+                  </a> <!-- Click_on_Modern_Art_link_and_check_of_all_shapes_of_Modern_Art_collection -->
+                  <span class="method-name">Click_on_Modern_Art_link_and_check_of_all_shapes_of_Modern_Art_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Mouse_over_on_collection_link</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_mouse_over_on_collection_link_and_check_all_collection_is_showing_or_not">
+                  </a> <!-- Test_mouse_over_on_collection_link_and_check_all_collection_is_showing_or_not -->
+                  <span class="method-name">Test_mouse_over_on_collection_link_and_check_all_collection_is_showing_or_not</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Flatweaves_collection_and_check_of_all_shapes_of_Flatweaves_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Flatweaves_link_and_check_of_all_shapes_of_Flatweaves_collection">
+                  </a> <!-- Click_on_Flatweaves_link_and_check_of_all_shapes_of_Flatweaves_collection -->
+                  <span class="method-name">Click_on_Flatweaves_link_and_check_of_all_shapes_of_Flatweaves_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Outdoor_collection_and_check_of_all_shapes_of_Outdoor_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Outdoor_link_and_check_of_all_shapes_of_Outdoor_collection">
+                  </a> <!-- Click_on_Outdoor_link_and_check_of_all_shapes_of_Outdoor_collection -->
+                  <span class="method-name">Click_on_Outdoor_link_and_check_of_all_shapes_of_Outdoor_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Monochrome_collection_and_check_of_all_shapes_of_Monochrome_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Monochrome_link_and_check_of_all_shapes_of_Monochrome_collection">
+                  </a> <!-- Click_on_Monochrome_link_and_check_of_all_shapes_of_Monochrome_collection -->
+                  <span class="method-name">Click_on_Monochrome_link_and_check_of_all_shapes_of_Monochrome_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Kids_collection_and_check_of_all_shapes_of_Kids_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Kids_link_and_check_of_all_shapes_of_Kids_collection">
+                  </a> <!-- Click_on_Kids_link_and_check_of_all_shapes_of_Kids_collection -->
+                  <span class="method-name">Click_on_Kids_link_and_check_of_all_shapes_of_Kids_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Batik_play_collection_and_check_of_all_shapes_of_Batik_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Batik_play_link_and_check_of_all_shapes_of_Batik_collection">
+                  </a> <!-- Click_on_Batik_play_link_and_check_of_all_shapes_of_Batik_collection -->
+                  <span class="method-name">Click_on_Batik_play_link_and_check_of_all_shapes_of_Batik_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Cerulean_collection_and_check_of_all_shapes_of_Cerulean_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Cerulean_link_and_check_of_all_shapes_of_Cerulean_collection">
+                  </a> <!-- Click_on_Cerulean_link_and_check_of_all_shapes_of_Cerulean_collection -->
+                  <span class="method-name">Click_on_Cerulean_link_and_check_of_all_shapes_of_Cerulean_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Solids_Color_collection_and_check_of_all_shapes_of_Solids_Color_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Solids_Color_link_and_check_of_all_shapes_of_Solids_Color_collection">
+                  </a> <!-- Click_on_Solids_Color_link_and_check_of_all_shapes_of_Solids_Color_collection -->
+                  <span class="method-name">Click_on_Solids_Color_link_and_check_of_all_shapes_of_Solids_Color_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Geometric_collection_and_check_of_all_shapes_of_Geometric_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Geometric_link_and_check_of_all_shapes_of_Geometric_collection">
+                  </a> <!-- Click_on_Geometric_link_and_check_of_all_shapes_of_Geometric_collection -->
+                  <span class="method-name">Click_on_Geometric_link_and_check_of_all_shapes_of_Geometric_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Vintage_collection_and_check_of_all_shapes_of_Vintage_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Vintage_link_and_check_of_all_shapes_of_Vintage_collection">
+                  </a> <!-- Click_on_Vintage_link_and_check_of_all_shapes_of_Vintage_collection -->
+                  <span class="method-name">Click_on_Vintage_link_and_check_of_all_shapes_of_Vintage_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_SurfaceArt_play_collection_and_check_of_all_shapes_of_SurfaceArt_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_SurfaceArt_play_link_and_check_of_all_shapes_of_SurfaceArt_collection">
+                  </a> <!-- Click_on_SurfaceArt_play_link_and_check_of_all_shapes_of_SurfaceArt_collection -->
+                  <span class="method-name">Click_on_SurfaceArt_play_link_and_check_of_all_shapes_of_SurfaceArt_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Modern_Geometric_collection_and_check_of_all_shapes_of_Modern_Geometric_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Modern_Geometric_link_and_check_of_all_shapes_of_Modern_Geometric_collection">
+                  </a> <!-- Click_on_Modern_Geometric_link_and_check_of_all_shapes_of_Modern_Geometric_collection -->
+                  <span class="method-name">Click_on_Modern_Geometric_link_and_check_of_all_shapes_of_Modern_Geometric_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Floral_collection_and_check_of_all_shapes_of_Floral_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Floral_link_and_check_of_all_shapes_of_Floral_collection">
+                  </a> <!-- Click_on_Floral_link_and_check_of_all_shapes_of_Floral_collection -->
+                  <span class="method-name">Click_on_Floral_link_and_check_of_all_shapes_of_Floral_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Absract_collection_and_check_of_all_shapes_of_Abstract_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Absract_link_and_check_of_all_shapes_of_Abstract_collection">
+                  </a> <!-- Click_on_Absract_link_and_check_of_all_shapes_of_Abstract_collection -->
+                  <span class="method-name">Click_on_Absract_link_and_check_of_all_shapes_of_Abstract_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Animal_Prints_collection_and_check_of_all_shapes_of_Animal_Prints_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Animal_Prints_link_and_check_of_all_shapes_of_Animal_Prints_collection">
+                  </a> <!-- Click_on_Animal_Prints_link_and_check_of_all_shapes_of_Animal_Prints_collection -->
+                  <span class="method-name">Click_on_Animal_Prints_link_and_check_of_all_shapes_of_Animal_Prints_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">collectionSectionTestCases.Click_on_Minimalist_collection_and_check_of_all_shapes_of_Minimalist_collection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_Minimalist_link_and_check_of_all_shapes_of_Minimalist_collection">
+                  </a> <!-- Click_on_Minimalist_link_and_check_of_all_shapes_of_Minimalist_collection -->
+                  <span class="method-name">Click_on_Minimalist_link_and_check_of_all_shapes_of_Minimalist_collection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\All Project\BrowserStackTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Gradation_collection_and_check_of_all_shapes_of_Gradation_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Vintage_collection_and_check_of_all_shapes_of_Vintage_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Kids_collection_and_check_of_all_shapes_of_Kids_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Batik_play_collection_and_check_of_all_shapes_of_Batik_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_SurfaceArt_play_collection_and_check_of_all_shapes_of_SurfaceArt_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Solids_Color_collection_and_check_of_all_shapes_of_Solids_Color_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Cerulean_collection_and_check_of_all_shapes_of_Cerulean_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Flatweaves_collection_and_check_of_all_shapes_of_Flatweaves_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Geometric_collection_and_check_of_all_shapes_of_Geometric_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Outdoor_collection_and_check_of_all_shapes_of_Outdoor_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Minimalist_collection_and_check_of_all_shapes_of_Minimalist_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Modern_Art_collection_and_check_of_all_shapes_of_Modern_Art_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Modern_Geometric_collection_and_check_of_all_shapes_of_Modern_Geometric_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Origami_collection_and_check_of_all_shapes_of_Origami_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Monochrome_collection_and_check_of_all_shapes_of_Monochrome_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Brush_Stroke_collection_and_check_of_all_shapes_of_Brush_Stroke_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Animal_Prints_collection_and_check_of_all_shapes_of_Animal_Prints_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Mouse_over_on_collection_link&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Floral_collection_and_check_of_all_shapes_of_Floral_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_Absract_collection_and_check_of_all_shapes_of_Abstract_collection&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_Collection_Link&quot;/&gt;
+      &lt;class name=&quot;collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (23 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection')
+data.setCell(0, 2, 'collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection')
+data.setCell(0, 3, 142252);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection')
+data.setCell(1, 2, 'collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection')
+data.setCell(1, 3, 132058);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'click_on_collection_link')
+data.setCell(2, 2, 'collectionSectionTestCases.Click_Collection_Link')
+data.setCell(2, 3, 6935);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Click_on_Gradation_link_and_check_of_all_shapes_of_Gradation_collection')
+data.setCell(3, 2, 'collectionSectionTestCases.Click_on_Gradation_collection_and_check_of_all_shapes_of_Gradation_collection')
+data.setCell(3, 3, 6344);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Click_on_Kids_link_and_check_of_all_shapes_of_Kids_collection')
+data.setCell(4, 2, 'collectionSectionTestCases.Click_on_Kids_collection_and_check_of_all_shapes_of_Kids_collection')
+data.setCell(4, 3, 6320);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Click_on_Flatweaves_link_and_check_of_all_shapes_of_Flatweaves_collection')
+data.setCell(5, 2, 'collectionSectionTestCases.Click_on_Flatweaves_collection_and_check_of_all_shapes_of_Flatweaves_collection')
+data.setCell(5, 3, 6274);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Click_on_SurfaceArt_play_link_and_check_of_all_shapes_of_SurfaceArt_collection')
+data.setCell(6, 2, 'collectionSectionTestCases.Click_on_SurfaceArt_play_collection_and_check_of_all_shapes_of_SurfaceArt_collection')
+data.setCell(6, 3, 6179);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Click_on_Solids_Color_link_and_check_of_all_shapes_of_Solids_Color_collection')
+data.setCell(7, 2, 'collectionSectionTestCases.Click_on_Solids_Color_collection_and_check_of_all_shapes_of_Solids_Color_collection')
+data.setCell(7, 3, 6169);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Click_on_Origami_link_and_check_of_all_shapes_of_Origami_collection')
+data.setCell(8, 2, 'collectionSectionTestCases.Click_on_Origami_collection_and_check_of_all_shapes_of_Origami_collection')
+data.setCell(8, 3, 6142);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Click_on_Geometric_link_and_check_of_all_shapes_of_Geometric_collection')
+data.setCell(9, 2, 'collectionSectionTestCases.Click_on_Geometric_collection_and_check_of_all_shapes_of_Geometric_collection')
+data.setCell(9, 3, 6028);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test_mouse_over_on_collection_link_and_check_all_collection_is_showing_or_not')
+data.setCell(10, 2, 'collectionSectionTestCases.Mouse_over_on_collection_link')
+data.setCell(10, 3, 5980);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Click_on_Brush_Stroke_link_and_check_of_all_shapes_of_Brush_Stroke_collection')
+data.setCell(11, 2, 'collectionSectionTestCases.Click_on_Brush_Stroke_collection_and_check_of_all_shapes_of_Brush_Stroke_collection')
+data.setCell(11, 3, 5964);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Click_on_Modern_Art_link_and_check_of_all_shapes_of_Modern_Art_collection')
+data.setCell(12, 2, 'collectionSectionTestCases.Click_on_Modern_Art_collection_and_check_of_all_shapes_of_Modern_Art_collection')
+data.setCell(12, 3, 5953);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Click_on_Modern_Geometric_link_and_check_of_all_shapes_of_Modern_Geometric_collection')
+data.setCell(13, 2, 'collectionSectionTestCases.Click_on_Modern_Geometric_collection_and_check_of_all_shapes_of_Modern_Geometric_collection')
+data.setCell(13, 3, 5951);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Click_on_Outdoor_link_and_check_of_all_shapes_of_Outdoor_collection')
+data.setCell(14, 2, 'collectionSectionTestCases.Click_on_Outdoor_collection_and_check_of_all_shapes_of_Outdoor_collection')
+data.setCell(14, 3, 5924);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Click_on_Vintage_link_and_check_of_all_shapes_of_Vintage_collection')
+data.setCell(15, 2, 'collectionSectionTestCases.Click_on_Vintage_collection_and_check_of_all_shapes_of_Vintage_collection')
+data.setCell(15, 3, 1574);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Click_on_Minimalist_link_and_check_of_all_shapes_of_Minimalist_collection')
+data.setCell(16, 2, 'collectionSectionTestCases.Click_on_Minimalist_collection_and_check_of_all_shapes_of_Minimalist_collection')
+data.setCell(16, 3, 1241);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Click_on_Absract_link_and_check_of_all_shapes_of_Abstract_collection')
+data.setCell(17, 2, 'collectionSectionTestCases.Click_on_Absract_collection_and_check_of_all_shapes_of_Abstract_collection')
+data.setCell(17, 3, 1174);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Click_on_Batik_play_link_and_check_of_all_shapes_of_Batik_collection')
+data.setCell(18, 2, 'collectionSectionTestCases.Click_on_Batik_play_collection_and_check_of_all_shapes_of_Batik_collection')
+data.setCell(18, 3, 1093);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Click_on_Monochrome_link_and_check_of_all_shapes_of_Monochrome_collection')
+data.setCell(19, 2, 'collectionSectionTestCases.Click_on_Monochrome_collection_and_check_of_all_shapes_of_Monochrome_collection')
+data.setCell(19, 3, 1017);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Click_on_Animal_Prints_link_and_check_of_all_shapes_of_Animal_Prints_collection')
+data.setCell(20, 2, 'collectionSectionTestCases.Click_on_Animal_Prints_collection_and_check_of_all_shapes_of_Animal_Prints_collection')
+data.setCell(20, 3, 988);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Click_on_Cerulean_link_and_check_of_all_shapes_of_Cerulean_collection')
+data.setCell(21, 2, 'collectionSectionTestCases.Click_on_Cerulean_collection_and_check_of_all_shapes_of_Cerulean_collection')
+data.setCell(21, 3, 970);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Click_on_Floral_link_and_check_of_all_shapes_of_Floral_collection')
+data.setCell(22, 2, 'collectionSectionTestCases.Click_on_Floral_collection_and_check_of_all_shapes_of_Floral_collection')
+data.setCell(22, 3, 869);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Gradation_collection_and_check_of_all_shapes_of_Gradation_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Gradation_link_and_check_of_all_shapes_of_Gradation_collection</span>
+                <span class="method-start">21300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">27655 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Vintage_collection_and_check_of_all_shapes_of_Vintage_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">29276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Vintage_link_and_check_of_all_shapes_of_Vintage_collection</span>
+                <span class="method-start">48066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">49642 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Kids_collection_and_check_of_all_shapes_of_Kids_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">51513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Kids_link_and_check_of_all_shapes_of_Kids_collection</span>
+                <span class="method-start">73916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">80236 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Batik_play_collection_and_check_of_all_shapes_of_Batik_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">81772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Batik_play_link_and_check_of_all_shapes_of_Batik_collection</span>
+                <span class="method-start">97137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">98230 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_SurfaceArt_play_collection_and_check_of_all_shapes_of_SurfaceArt_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">99490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_SurfaceArt_play_link_and_check_of_all_shapes_of_SurfaceArt_collection</span>
+                <span class="method-start">115806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">121986 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Solids_Color_collection_and_check_of_all_shapes_of_Solids_Color_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">123769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Solids_Color_link_and_check_of_all_shapes_of_Solids_Color_collection</span>
+                <span class="method-start">141036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">147206 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Cerulean_collection_and_check_of_all_shapes_of_Cerulean_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">148990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Cerulean_link_and_check_of_all_shapes_of_Cerulean_collection</span>
+                <span class="method-start">168315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">169286 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Flatweaves_collection_and_check_of_all_shapes_of_Flatweaves_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">170797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Flatweaves_link_and_check_of_all_shapes_of_Flatweaves_collection</span>
+                <span class="method-start">190663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">196938 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Geometric_collection_and_check_of_all_shapes_of_Geometric_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">198550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Geometric_link_and_check_of_all_shapes_of_Geometric_collection</span>
+                <span class="method-start">217333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">223362 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">224746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection</span>
+                <span class="method-start">252388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">394661 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Outdoor_collection_and_check_of_all_shapes_of_Outdoor_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">396017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Outdoor_link_and_check_of_all_shapes_of_Outdoor_collection</span>
+                <span class="method-start">416391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">422316 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Minimalist_collection_and_check_of_all_shapes_of_Minimalist_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">424870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Minimalist_link_and_check_of_all_shapes_of_Minimalist_collection</span>
+                <span class="method-start">455320 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">456562 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Modern_Art_collection_and_check_of_all_shapes_of_Modern_Art_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">458076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Modern_Art_link_and_check_of_all_shapes_of_Modern_Art_collection</span>
+                <span class="method-start">473663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">479618 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Modern_Geometric_collection_and_check_of_all_shapes_of_Modern_Geometric_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">481263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Modern_Geometric_link_and_check_of_all_shapes_of_Modern_Geometric_collection</span>
+                <span class="method-start">500502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">506454 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Origami_collection_and_check_of_all_shapes_of_Origami_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">507933 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Origami_link_and_check_of_all_shapes_of_Origami_collection</span>
+                <span class="method-start">525179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">531322 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Monochrome_collection_and_check_of_all_shapes_of_Monochrome_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">532901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Monochrome_link_and_check_of_all_shapes_of_Monochrome_collection</span>
+                <span class="method-start">550922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">551940 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Brush_Stroke_collection_and_check_of_all_shapes_of_Brush_Stroke_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">553497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Brush_Stroke_link_and_check_of_all_shapes_of_Brush_Stroke_collection</span>
+                <span class="method-start">569347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">575312 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Animal_Prints_collection_and_check_of_all_shapes_of_Animal_Prints_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">576772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Animal_Prints_link_and_check_of_all_shapes_of_Animal_Prints_collection</span>
+                <span class="method-start">597702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">598691 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Mouse_over_on_collection_link</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">600152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test_mouse_over_on_collection_link_and_check_all_collection_is_showing_or_not</span>
+                <span class="method-start">617857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">623838 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Floral_collection_and_check_of_all_shapes_of_Floral_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">625069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Floral_link_and_check_of_all_shapes_of_Floral_collection</span>
+                <span class="method-start">643601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">644471 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_Absract_collection_and_check_of_all_shapes_of_Abstract_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">645875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Click_on_Absract_link_and_check_of_all_shapes_of_Abstract_collection</span>
+                <span class="method-start">663704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">664878 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_Collection_Link</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">666461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">click_on_collection_link</span>
+                <span class="method-start">696674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">703615 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">705173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection</span>
+                <span class="method-start">721410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">853474 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

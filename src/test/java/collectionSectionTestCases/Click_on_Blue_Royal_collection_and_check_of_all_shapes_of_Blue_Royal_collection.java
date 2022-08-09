@@ -1,0 +1,5 @@
+package collectionSectionTestCases;
+
+public class Click_on_Blue_Royal_collection_and_check_of_all_shapes_of_Blue_Royal_collection {
+
+}

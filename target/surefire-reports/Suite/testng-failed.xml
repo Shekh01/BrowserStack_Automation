@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection">
+        <methods>
+          <include name="Click_on_View_All_collection_link_and_check_of_all_shapes_of_View_All_Collection_collection"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- collectionSectionTestCases.Click_on_View_All_collection_and_check_of_all_shapes_of_View_All_Collection_collection -->
+      <class name="collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="Click_on_Terrazo_play_link_and_check_of_all_shapes_of_Terrazo_collection"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- collectionSectionTestCases.Click_on_Terrazo_play_collection_and_check_of_all_shapes_of_Terrazo_collection -->
+      <class name="collectionSectionTestCases.Click_Collection_Link">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="click_on_collection_link"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- collectionSectionTestCases.Click_Collection_Link -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
